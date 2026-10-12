@@ -1,0 +1,74 @@
+[
+  {
+    "id": "exp-101",
+    "title": "WASM-Based Client-Side Schema Validation vs Node Server Endpoint",
+    "hypothesis": "Compiling Rust schema validation to WASM will reduce client validation latency below 5ms for 500KB JSON payloads.",
+    "technicalDomain": "TypeScript & WebAssembly",
+    "competencyId": "comp-typescript",
+    "methodology": "Benchmarked 1,000 iterations against Ajv in V8 vs Wasm binary loaded via Web Worker.",
+    "outcome": "Validated",
+    "keyLearnings": "WASM execution was 3.4x faster for large documents (>200KB), but serialization boundary overhead made it 1.8x slower for small payloads under 15KB. Hybrid threshold routing is required.",
+    "pivotAction": "Implemented a size-aware dispatch: payloads under 30KB run pure JS validator; larger payloads invoke WASM/worker thread.",
+    "date": "2026-03-22",
+    "evidenceArtifactId": "ev-001",
+    "tags": [
+      "performance",
+      "wasm",
+      "validation"
+    ]
+  },
+  {
+    "id": "exp-102",
+    "title": "Zero-Knowledge Cryptographic Proof of Skill Assessment",
+    "hypothesis": "zk-SNARK proofs can verify candidate code test pass rates without revealing proprietary test cases or source repository IP.",
+    "technicalDomain": "Cybersecurity & Cryptography",
+    "competencyId": "comp-cybersecurity",
+    "methodology": "Constructed Circom circuits calculating Merkle root verification of test execution trace files.",
+    "outcome": "Failed / Falsified",
+    "keyLearnings": "Circuit constraint generation exceeded 1.8GB memory on developer workstations, resulting in 45-second proof times for even small test matrices. The proof generation overhead is prohibitive for interactive dashboard workflows.",
+    "pivotAction": "Pivoted away from zk-SNARK circuits to HMAC-signed test runner attestations backed by SHA-256 Merkle ledger hashes. Achieved 99.9% tamper resistance with sub-millisecond overhead.",
+    "date": "2026-04-01",
+    "evidenceArtifactId": "ev-003",
+    "tags": [
+      "cryptography",
+      "failed-experiment",
+      "learning-postmortem"
+    ]
+  },
+  {
+    "id": "exp-103",
+    "title": "Dynamic Temperature Decay in Recursive LLM Prompt Evaluator",
+    "hypothesis": "Decaying sampling temperature exponentially with each reflection pass reduces catastrophic drift in autonomous code reviews.",
+    "technicalDomain": "AI & Machine Learning Engineering",
+    "competencyId": "comp-ai",
+    "methodology": "Evaluated 400 complex TypeScript pull requests across static temperature (0.2) vs decayed temperature (0.7 -> 0.3 -> 0.05).",
+    "outcome": "Validated",
+    "keyLearnings": "High initial temperature surfaced novel edge cases in exploratory phases; subsequent frozen low temperature locked in rigorous syntactic and rubric compliance.",
+    "pivotAction": "Integrated temperature decay scheduler as standard policy in automated PR rubric evaluator.",
+    "date": "2026-04-08",
+    "evidenceArtifactId": "ev-002",
+    "tags": [
+      "ai-eval",
+      "prompt-engineering",
+      "innovation"
+    ]
+  },
+  {
+    "id": "exp-104",
+    "title": "Automated Dark Web OSINT Onion Scraping over Headless Tor Browser Cluster",
+    "hypothesis": "Distributing headless Chromium instances across Tor control ports will achieve 99% uptime for threat intelligence feeds.",
+    "technicalDomain": "OSINT & Distributed Systems",
+    "competencyId": "comp-osint",
+    "methodology": "Deployed a 12-pod Tor proxy cluster with automated circuit recycling every 90 seconds.",
+    "outcome": "Failed / Falsified",
+    "keyLearnings": "Tor circuit latency spikes caused cascade browser timeouts; circuit recycling triggered CAPTCHA and Cloudflare Onion guards on 82% of monitored nodes.",
+    "pivotAction": "Abandoned headless browser rendering for dark web feeds. Switched to minimal curl/socks5 raw text extractors with persistent rendezvous circuits and manual operator escalation.",
+    "date": "2026-03-10",
+    "evidenceArtifactId": "ev-006",
+    "tags": [
+      "osint",
+      "postmortem",
+      "architecture-pivot"
+    ]
+  }
+]

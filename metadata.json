@@ -1,0 +1,7 @@
+{
+  "name": "Open-Source Competency & Innovation Toolkit",
+  "description": "A transparent framework for tracking skills across the nine Skills for Success, assessing evidence through a four-tier ledger, testing ideas, learning from failed experiments, and measuring project progress.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

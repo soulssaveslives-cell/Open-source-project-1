@@ -1,0 +1,132 @@
+[
+  {
+    "id": "comp-python",
+    "name": "Python",
+    "category": "Backend & Data Engineering",
+    "tier": "Advanced",
+    "summary": "Asynchronous event loops, data pipelines, typing with Mypy, and PyTest harness integration.",
+    "skillsMapped": [
+      "digital",
+      "problem-solving",
+      "numeracy",
+      "adaptability"
+    ],
+    "rubricRequirements": {
+      "novice": "Basic scripts, PEP8 conformity, virtualenv setup.",
+      "capable": "Type annotations, unit testing with pytest >80%, package builds.",
+      "advanced": "Asyncio optimization, concurrency profiling, custom C-extensions or metaclasses.",
+      "champion": "Core library maintainer, author of published PyPI package, org-wide architectural guidelines."
+    },
+    "verifiedEvidenceCount": 5,
+    "lastAssessed": "2026-03-28"
+  },
+  {
+    "id": "comp-react",
+    "name": "React",
+    "category": "Frontend Engineering",
+    "tier": "Capable",
+    "summary": "Modern component lifecycle, custom hooks, state coordination, and server components.",
+    "skillsMapped": [
+      "digital",
+      "problem-solving",
+      "creativity-innovation",
+      "collaboration",
+      "communication"
+    ],
+    "rubricRequirements": {
+      "novice": "JSX syntax, standard state/effects, single page navigation.",
+      "capable": "Custom hooks, memoization strategy, accessibility WCAG AA, testing library tests.",
+      "advanced": "Micro-frontend architecture, custom reconciliation, zero-bundle optimization.",
+      "champion": "Author of open-source design system, state engine contributor, conference speaker."
+    },
+    "verifiedEvidenceCount": 4,
+    "lastAssessed": "2026-03-15"
+  },
+  {
+    "id": "comp-typescript",
+    "name": "TypeScript",
+    "category": "Type Systems & Compilers",
+    "tier": "Advanced",
+    "summary": "Strict compiler configuration, conditional types, template literal types, and AST transformations.",
+    "skillsMapped": [
+      "digital",
+      "problem-solving",
+      "reading",
+      "numeracy"
+    ],
+    "rubricRequirements": {
+      "novice": "Basic interfaces, primitives, tsconfig compilation.",
+      "capable": "Generics, union discriminating types, strictNullChecks, library d.ts typings.",
+      "advanced": "Mapped & conditional types, recursive AST types, custom ESLint/TS compiler plugins.",
+      "champion": "Compiler contributor, RFC author for type system evolutions, community educator."
+    },
+    "verifiedEvidenceCount": 6,
+    "lastAssessed": "2026-04-02"
+  },
+  {
+    "id": "comp-osint",
+    "name": "OSINT (Open Source Intelligence)",
+    "category": "Security & Research",
+    "tier": "Capable",
+    "summary": "Public record synthesis, domain telemetry mapping, certificate transparency analysis, and structured report generation.",
+    "skillsMapped": [
+      "reading",
+      "problem-solving",
+      "digital",
+      "writing",
+      "communication"
+    ],
+    "rubricRequirements": {
+      "novice": "Search operators, DNS queries, public repository audits.",
+      "capable": "Automated footprint collection, SOCMINT workflows, correlation matrices, clean provenance chains.",
+      "advanced": "Custom scraping pipelines, maltego/spiderfoot extensions, counter-deception detection.",
+      "champion": "Published investigative reports cited by peer research, forensic framework author."
+    },
+    "verifiedEvidenceCount": 3,
+    "lastAssessed": "2026-02-19"
+  },
+  {
+    "id": "comp-ai",
+    "name": "AI & Machine Learning Engineering",
+    "category": "Emerging Technologies",
+    "tier": "Champion",
+    "summary": "Prompt engineering harnesses, fine-tuning evaluations, vector retrieval systems, and multimodal tool calling.",
+    "skillsMapped": [
+      "creativity-innovation",
+      "numeracy",
+      "problem-solving",
+      "digital",
+      "adaptability"
+    ],
+    "rubricRequirements": {
+      "novice": "API client calls, basic prompt structure, deterministic temperature tuning.",
+      "capable": "RAG architecture, embeddings distance evaluation, automated eval benchmark suites.",
+      "advanced": "LoRA fine-tuning, quantized inference hosting, latency budget optimization.",
+      "champion": "Novel model architecture or evaluation benchmark published, widespread production impact."
+    },
+    "verifiedEvidenceCount": 8,
+    "lastAssessed": "2026-04-10"
+  },
+  {
+    "id": "comp-cybersecurity",
+    "name": "Cybersecurity & Threat Modeling",
+    "tier": "Advanced",
+    "category": "Security & Compliance",
+    "summary": "Zero Trust architecture, automated SAST/DAST pipelines, memory safety audits, and container hardening.",
+    "skillsMapped": [
+      "problem-solving",
+      "digital",
+      "reading",
+      "writing",
+      "adaptability"
+    ],
+    "rubricRequirements": {
+      "novice": "OWASP Top 10 awareness, dependency vulnerability auditing (npm audit, Snyk).",
+      "capable": "Threat modeling with STRIDE, cryptographic signature validation, secret scanning CI gates.",
+      "advanced": "Zero-day vulnerability reproduction, custom eBPF kernel telemetry, automated fuzzing harnesses.",
+      "champion": "Coordinated CVE disclosure, author of security standards or cryptographic protocols."
+    },
+    "verifiedEvidenceCount": 5,
+    "lastAssessed": "2026-04-05"
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "ev-001",
+    "competencyId": "comp-typescript",
+    "title": "Type-Safe Schema Validator with Zero Runtime Overhead",
+    "type": "Code & Tests",
+    "tierClaimed": "Advanced",
+    "status": "Verified",
+    "sourceRef": "https://github.com/toolkit/core/commit/8f2c39d",
+    "sha256Hash": "a7c93e4812f8bc20387b99320eec9a16f6b1580d0d8291079369cb7e72808c14",
+    "description": "Engineered a compile-time JSON/YAML schema generator using recursive conditional types that guarantees zero runtime penalty while emitting typed deserializers.",
+    "verifiedBy": "Core Architecture Reviewer (ID: 881)",
+    "verificationDate": "2026-04-02",
+    "testCoveragePct": 98.4,
+    "skillsDemonstrated": [
+      "digital",
+      "problem-solving",
+      "numeracy"
+    ]
+  },
+  {
+    "id": "ev-002",
+    "competencyId": "comp-ai",
+    "title": "Self-Correction Retrieval Benchmark Suite for LLMs",
+    "type": "Project Documentation & Benchmark",
+    "tierClaimed": "Champion",
+    "status": "Verified",
+    "sourceRef": "https://github.com/toolkit/benchmarks/tree/main/rag-eval",
+    "sha256Hash": "d35b91b984025a1e2f754ce69929559c5d1fa2782e584f937eec28bc3a67041a",
+    "description": "Published an empirical evaluation suite assessing automated hallucinations reduction across 12,000 synthetic technical questions, proving an 89.2% accuracy improvement.",
+    "verifiedBy": "Peer Advisory Committee",
+    "verificationDate": "2026-04-10",
+    "testCoveragePct": 95,
+    "skillsDemonstrated": [
+      "creativity-innovation",
+      "numeracy",
+      "writing",
+      "problem-solving"
+    ]
+  },
+  {
+    "id": "ev-003",
+    "competencyId": "comp-cybersecurity",
+    "title": "Automated Cryptographic Hash Seal for Evidence Ledger",
+    "type": "Security Audit & PR",
+    "tierClaimed": "Advanced",
+    "status": "Verified",
+    "sourceRef": "https://github.com/toolkit/security/pull/42",
+    "sha256Hash": "5e7f22b91845c48b71d643198a0026e632b7a4891bce47101a0937b83ecff3c8",
+    "description": "Designed Merkle-tree chained cryptographic evidence ledger preventing historical tampering of competency verification logs.",
+    "verifiedBy": "Lead Security Auditor",
+    "verificationDate": "2026-04-05",
+    "testCoveragePct": 100,
+    "skillsDemonstrated": [
+      "problem-solving",
+      "digital",
+      "reading"
+    ]
+  },
+  {
+    "id": "ev-004",
+    "competencyId": "comp-react",
+    "title": "High-Density Accessible Matrix Component with Keyboard Navigation",
+    "type": "Code & Tests",
+    "tierClaimed": "Capable",
+    "status": "Verified",
+    "sourceRef": "https://github.com/toolkit/ui/commit/c410b2a",
+    "sha256Hash": "9312ea1bc8324e6ff175d9e564bc7754a10df768f3a3889c3e46c76dbbf91102",
+    "description": "Implemented full roving tabindex keyboard navigation and aria-grid compliance across complex 9x6 skill mapping tables.",
+    "verifiedBy": "UI Accessibility Guild",
+    "verificationDate": "2026-03-15",
+    "testCoveragePct": 92,
+    "skillsDemonstrated": [
+      "digital",
+      "collaboration",
+      "problem-solving"
+    ]
+  },
+  {
+    "id": "ev-005",
+    "competencyId": "comp-python",
+    "title": "High-Throughput Asynchronous OSINT Harvester Engine",
+    "type": "Source Record & Tests",
+    "tierClaimed": "Advanced",
+    "status": "Verified",
+    "sourceRef": "https://github.com/toolkit/harvester/blob/main/engine.py",
+    "sha256Hash": "2019baf4101cc7a4e60f089856ef9a7776418c3933c1d936ec88f547145781a9",
+    "description": "Engineered an asyncio + uvloop scraper processing 2,500 target records per minute with adaptive backoff rate-limiting.",
+    "verifiedBy": "Performance Reviewer",
+    "verificationDate": "2026-03-28",
+    "testCoveragePct": 91.5,
+    "skillsDemonstrated": [
+      "digital",
+      "numeracy",
+      "adaptability"
+    ]
+  },
+  {
+    "id": "ev-006",
+    "competencyId": "comp-osint",
+    "title": "Cross-Jurisdiction DNS & Certificate Chain Correlation Guide",
+    "type": "Documentation & Case Study",
+    "tierClaimed": "Capable",
+    "status": "Verified",
+    "sourceRef": "https://github.com/toolkit/research-docs/wiki/DNS-Chains",
+    "sha256Hash": "8b7899653a991f24d9c792f397f2aa25e64811fcf12360bba7216a9a08e622b1",
+    "description": "Documented a repeatable, ethical methodology for unraveling cloud infrastructure ownership across 40 disparate autonomous systems.",
+    "verifiedBy": "Senior Intelligence Analyst",
+    "verificationDate": "2026-02-19",
+    "testCoveragePct": 88,
+    "skillsDemonstrated": [
+      "reading",
+      "writing",
+      "problem-solving"
+    ]
+  },
+  {
+    "id": "ev-007",
+    "competencyId": "comp-python",
+    "title": "PyTest Integration Suite for Resilient Concurrency",
+    "type": "Code & Tests",
+    "tierClaimed": "Advanced",
+    "status": "Verified",
+    "sourceRef": "https://github.com/toolkit/harvester/pull/18",
+    "sha256Hash": "34a1bc8f029411d9a5b3ee099182374bbac192aef31828cbdf217a9e10283f91",
+    "description": "Developed automated chaos and network failure injection fixtures evaluating graceful thread degradation.",
+    "verifiedBy": "Senior QA Architect",
+    "verificationDate": "2026-04-01",
+    "testCoveragePct": 96,
+    "skillsDemonstrated": [
+      "problem-solving",
+      "digital",
+      "adaptability"
+    ]
+  },
+  {
+    "id": "ev-008",
+    "competencyId": "comp-typescript",
+    "title": "Recursive AST Transformer for Schema Invariant Enforcement",
+    "type": "Code & Tests",
+    "tierClaimed": "Advanced",
+    "status": "Verified",
+    "sourceRef": "https://github.com/toolkit/core/commit/51fa0b2",
+    "sha256Hash": "7c82e1d0339ab315e90218841cf628ea13b019da52148b4382e718ccab019d3f",
+    "description": "Wrote custom TypeScript compiler transformer plugin checking promotion gate invariants at compilation time.",
+    "verifiedBy": "Compiler WG Member",
+    "verificationDate": "2026-04-07",
+    "testCoveragePct": 94.2,
+    "skillsDemonstrated": [
+      "digital",
+      "reading",
+      "problem-solving"
+    ]
+  },
+  {
+    "id": "ev-009",
+    "competencyId": "comp-ai",
+    "title": "LoRA Quantized Adapter Evaluation on Edge Hardware",
+    "type": "Project Documentation & Benchmark",
+    "tierClaimed": "Champion",
+    "status": "Verified",
+    "sourceRef": "https://github.com/toolkit/ai-research/pull/88",
+    "sha256Hash": "1a938fe410dc394200b3419df9419ca882839bce41029ba88f34918274a10df9",
+    "description": "Empirical study comparing INT4 vs FP8 inference degradation across reasoning tasks, resulting in 65% latency reduction.",
+    "verifiedBy": "AI Systems Advisory Board",
+    "verificationDate": "2026-04-09",
+    "testCoveragePct": 93.5,
+    "skillsDemonstrated": [
+      "creativity-innovation",
+      "numeracy",
+      "digital"
+    ]
+  },
+  {
+    "id": "ev-010",
+    "competencyId": "comp-ai",
+    "title": "Multi-Agent Consensus Protocol for Code Review Attestations",
+    "type": "Code & Tests",
+    "tierClaimed": "Champion",
+    "status": "Verified",
+    "sourceRef": "https://github.com/toolkit/ai-consensus/commit/e8103df",
+    "sha256Hash": "e9420a9bf48218da02919374029410ea8391cb094812ea019481029cbde01928",
+    "description": "Engineered an asynchronous multi-agent deliberation harness reducing false-positive rubric rejections by 91%.",
+    "verifiedBy": "Steering Committee",
+    "verificationDate": "2026-04-11",
+    "testCoveragePct": 97,
+    "skillsDemonstrated": [
+      "creativity-innovation",
+      "communication",
+      "problem-solving"
+    ]
+  },
+  {
+    "id": "ev-011",
+    "competencyId": "comp-cybersecurity",
+    "title": "Kernel eBPF Telemetry Pipeline for Memory Safety Audits",
+    "type": "Security Audit & PR",
+    "tierClaimed": "Advanced",
+    "status": "Verified",
+    "sourceRef": "https://github.com/toolkit/security/commit/19f8a20",
+    "sha256Hash": "98f10294bc102938a19283740192837401928340192834019283401928340192",
+    "description": "Implemented zero-overhead kernel probe monitoring memory allocations and detecting buffer overflows in real time.",
+    "verifiedBy": "AppSec Lead",
+    "verificationDate": "2026-04-06",
+    "testCoveragePct": 95.8,
+    "skillsDemonstrated": [
+      "problem-solving",
+      "digital",
+      "writing"
+    ]
+  }
+]
